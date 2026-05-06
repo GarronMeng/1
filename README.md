@@ -2,7 +2,7 @@
 
 A lightweight AI skill for analyzing digital society, AI, platforms, public discourse, and human subjectivity through a Hu Yong-inspired framework.
 
-This repository is designed as a **thinking tool**, not a quote database.
+This repository is designed as a **thinking and writing tool**, not a quote database.
 
 It helps AI assistants, writers, researchers, strategists, students, and public-interest practitioners move from shallow technology commentary to deeper digital-society analysis.
 
@@ -20,6 +20,16 @@ Many analyses of AI, platforms, social media, and digital transformation stop at
 This skill pushes the analysis further:
 
 > Technology should not be analyzed only as a tool. It should be analyzed as a force that reorganizes relationships, power, attention, institutions, public discussion, and human subjectivity.
+
+But the repository now makes an additional distinction:
+
+> A structured framework is useful for thinking, but public-intellectual writing must not sound like a consulting memo.
+
+For article-like outputs, the preferred movement is:
+
+```text
+symptom → older order → displacement → apparatus → paradox → human subject → sharpened question
+```
 
 ---
 
@@ -58,6 +68,10 @@ It reorganizes:
 - credibility and trust;
 - human subjectivity.
 
+In public essay mode, the deeper question is:
+
+> What kind of human being, public life, and social order does this technology quietly presuppose and produce?
+
 ---
 
 ## When to use this skill
@@ -89,9 +103,13 @@ Use this skill when analyzing:
 skills/
 └── huyong-digital-society-thinking/
     ├── SKILL.md                 # Core skill instructions
+    ├── style-calibration.md     # What the public-intellectual mode should sound like
+    ├── writing-depth-guide.md   # How to avoid consulting-style shallowness
+    ├── anti-patterns.md         # Common failure modes and how to fix them
     ├── research-map.md          # Research questions, analytical axes, quality bar
     ├── output-templates.md      # Reusable memo, essay, social post, strategy templates
     ├── examples.md              # Example prompts and expected directions
+    ├── evaluation-tests.md      # Tests and scoring rubric
     ├── source-reading-list.md   # Starting points for further source-based research
     └── source-notes.md          # Attribution and citation discipline
 ```
@@ -108,11 +126,18 @@ The core file is:
 skills/huyong-digital-society-thinking/SKILL.md
 ```
 
-Recommended prompt pattern:
+### Recommended prompt for framework mode
 
 ```text
 用胡泳式数字社会分析框架，分析 [topic]。
-请不要只做优缺点分析，而要拆解：表层现象、深层位移、关系重组、平台/系统权力、人的主体性问题、现实启示。
+请拆解：表层现象、深层位移、关系重组、平台/系统权力、人的主体性问题、现实启示。
+```
+
+### Recommended prompt for public essay mode
+
+```text
+请用胡泳式数字社会问题意识，写一段有公共评论感的文章分析 [topic]。
+不要写成咨询报告，不要只做优缺点分析。请从一个日常症候切入，写出旧秩序如何被平台/算法/数据装置改写，并呈现其中的悖论和人的处境。
 ```
 
 ---
@@ -120,49 +145,43 @@ Recommended prompt pattern:
 ## Example prompts
 
 ```text
-用胡泳式数字社会分析框架，分析小红书为什么不只是一个种草平台，而是一个信任、身份和消费决策的重组系统。
+请用胡泳式数字社会问题意识，写一段文章分析小红书医疗科普。重点不要写成营销分析，而要写出数字社会和人的焦虑。
 ```
 
 ```text
-用胡泳式框架分析 AI Agent 为什么不只是效率工具，而是判断权和责任结构的重新分配。
+请用公共知识分子文章的方式，分析 AI 写作为什么不只是效率工具。不要写成咨询报告。
 ```
 
 ```text
-用胡泳式框架分析医院数字化转型：它如何改变患者、医生、医院、保险和平台之间的关系？
+用胡泳式框架分析 AI Agent 为什么不只是自动化工具，要写出判断权和责任结构的变化。
+```
+
+```text
+为什么社交媒体上人人都能发声，但公共讨论反而更难？请写成一段有思想深度的评论。
 ```
 
 ---
 
-## Example output structure
+## Public essay quality bar
 
-1. Surface phenomenon
-2. Deeper displacement
-3. Changed relationships
-4. Platform / system power structure
-5. Human subjectivity question
-6. Strategic, cultural, or ethical implication
+A strong essay-style output should:
 
----
-
-## Quality bar
-
-A strong output should:
-
-- move beyond simple pros and cons;
-- identify a structural displacement;
-- map changed relationships;
-- discuss power, visibility, trust, or dependency;
-- include a human subjectivity question;
-- avoid presenting interpretation as direct quotation;
-- end with a usable implication.
+- begin from an ordinary symptom or scene;
+- show the older order being displaced;
+- identify the mediating apparatus: platform, algorithm, interface, metric, data system, institution, or market;
+- develop a paradox between technological promise and social consequence;
+- return to human judgment, dignity, agency, memory, attention, or responsibility;
+- end by sharpening the question rather than rushing to advice.
 
 A weak output usually:
 
+- sounds like a consulting report;
 - treats technology as a neutral tool;
 - lists generic advantages and disadvantages;
 - ignores platform incentives and institutional arrangements;
-- confuses popularity with public value;
-- ignores who gains power and who loses agency.
+- has no historical comparison;
+- has no paradox;
+- uses “主体性” as a slogan without showing what happens to actual people.
 
 ---
 
