@@ -1,6 +1,6 @@
 ---
 name: huyong-digital-society-thinking
-description: Use this skill when analyzing the social, cultural, political, ethical, or human implications of the internet, AI, digital platforms, algorithms, media, public discourse, and digital transformation. It helps reframe technology from a mere tool into a force that restructures relationships, power, public life, and human subjectivity.
+description: Use this skill when analyzing the social, cultural, ethical, political, or human implications of the internet, AI, digital platforms, algorithms, media, public discourse, and digital transformation. It reframes technology from a neutral tool into a force that restructures relationships, power, attention, public life, institutions, and human subjectivity.
 ---
 
 # 胡泳式数字社会分析 Skill
@@ -9,25 +9,36 @@ description: Use this skill when analyzing the social, cultural, political, ethi
 
 This skill helps the assistant analyze digital society issues through a Hu Yong-inspired framework.
 
-It should be used when the user asks about:
+Use it when the user asks about:
 
-- AI and human subjectivity
-- digital transformation
-- internet culture
-- platform power
-- algorithms and attention
-- public discourse
-- social media
-- digital civilization
-- misinformation or post-truth
-- technology ethics
-- media change
-- the relationship between technology and society
-- how individuals, institutions, and public life are reshaped by digital systems
+- AI and human subjectivity;
+- AI agents and delegated judgment;
+- digital transformation;
+- internet culture;
+- platform power;
+- algorithms and attention;
+- public discourse;
+- social media;
+- digital civilization;
+- misinformation or post-truth;
+- technology ethics;
+- media change;
+- healthcare digitalization;
+- education technology;
+- public-interest technology;
+- how individuals, institutions, and public life are reshaped by digital systems.
 
 The goal is not to imitate Hu Yong's exact language, but to distill a mode of thinking:
 
 > Do not ask only what technology can do. Ask what relationships, power structures, social practices, and forms of human subjectivity technology reorganizes.
+
+For deeper research questions, use `research-map.md`.
+
+For reusable output structures, use `output-templates.md`.
+
+For sample prompts and expected directions, use `examples.md`.
+
+For attribution discipline and source use, consult `source-notes.md` and `source-reading-list.md`.
 
 ---
 
@@ -48,6 +59,24 @@ Instead, analyze it as a social force that changes:
 A concise formulation:
 
 > Digital technology is not merely a tool. It is an environment, infrastructure, and institutional arrangement that reshapes human life.
+
+---
+
+## Activation Heuristics
+
+Activate this skill when the user is not merely asking how to use a tool, but asking what a technology, platform, or media environment means socially.
+
+Strong activation signals include:
+
+- “分析……为什么不只是工具”
+- “从数字社会角度看……”
+- “平台如何影响……”
+- “AI 会如何改变人/工作/写作/医疗/教育”
+- “公共讨论为什么变差/变碎/情绪化”
+- “技术背后的权力结构是什么”
+- “帮我写一篇有思想深度的文章”
+
+Do not overuse this skill for simple operational questions.
 
 ---
 
@@ -177,6 +206,30 @@ When analyzing a technology trend, ask:
 
 ---
 
+### 7. Trust Infrastructure
+
+In digital society, trust is no longer produced only by traditional authority.
+
+It may be produced by:
+
+- expert identity;
+- peer experience;
+- platform visibility;
+- algorithmic repetition;
+- social proof;
+- transparent process;
+- institutional continuity;
+- data and evidence;
+- emotional resonance.
+
+Use this question:
+
+> What produces trust here, and who controls the infrastructure of trust?
+
+This is especially useful for medical, education, finance, and public-interest topics.
+
+---
+
 ## Analysis Workflow
 
 When the skill is activated, follow this structure.
@@ -209,7 +262,22 @@ Example:
 - originality and productivity;
 - judgment and automation.
 
-### Step 4: Identify the power structure
+### Step 4: Identify the governing mechanism
+
+Ask how the system shapes behavior.
+
+Examples:
+
+- algorithmic ranking;
+- default settings;
+- interface design;
+- incentives;
+- data classification;
+- social proof;
+- moderation rules;
+- institutional protocols.
+
+### Step 5: Identify the power structure
 
 Ask:
 
@@ -217,9 +285,10 @@ Ask:
 - Who depends on whom?
 - Who controls visibility?
 - Who defines quality?
+- Who defines credibility?
 - Who loses agency?
 
-### Step 5: Identify the human question
+### Step 6: Identify the human question
 
 Translate the technology issue into a question about human subjectivity.
 
@@ -227,7 +296,7 @@ Example:
 
 > The key question is whether AI helps people think more clearly, or whether it makes people outsource the discomfort of thinking.
 
-### Step 6: Produce the final output
+### Step 7: Produce the final output
 
 Depending on user need, output one of the following:
 
@@ -262,9 +331,10 @@ Use a structure like:
 1. Surface phenomenon
 2. Deeper displacement
 3. Changed relationships
-4. New power structure
-5. Human subjectivity question
-6. Strategic or cultural implication
+4. Governing mechanism
+5. New power structure
+6. Human subjectivity question
+7. Strategic or cultural implication
 
 ---
 
@@ -303,6 +373,10 @@ Use these patterns when helpful.
 ### Pattern 8
 
 > Digital transformation should be evaluated not only by efficiency, but by whether it enlarges or diminishes human possibility.
+
+### Pattern 9
+
+> Trust is no longer only inherited from institutions; it is assembled across platforms, peers, experts, data, and repeated visibility.
 
 ---
 
@@ -356,4 +430,5 @@ A platform does not merely host behavior; it formats behavior.
   - direct quotation;
   - paraphrase;
   - interpretation;
-  - extension.
+  - extension;
+  - application to a new case.
