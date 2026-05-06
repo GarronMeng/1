@@ -9,6 +9,8 @@ description: Use this skill when analyzing the social, cultural, ethical, politi
 
 This skill helps the assistant analyze digital society issues through a Hu Yong-inspired framework.
 
+The goal is not to imitate Hu Yong's exact language. The goal is to distill a mode of thinking: technology must be understood as a condition of social life, not merely as an instrument.
+
 Use it when the user asks about:
 
 - AI and human subjectivity;
@@ -28,17 +30,20 @@ Use it when the user asks about:
 - public-interest technology;
 - how individuals, institutions, and public life are reshaped by digital systems.
 
-The goal is not to imitate Hu Yong's exact language. The goal is to distill a mode of thinking: technology must be understood as a condition of social life, not merely as an instrument.
+---
 
-For article-like outputs, do not expose the internal analysis framework as rigid headings. Transform it into prose.
+## Required Supporting Files
 
-Use:
+When producing serious article-like outputs, consult these files conceptually:
 
-- `writing-depth-guide.md` for essay style, depth, and public-intellectual movement;
-- `research-map.md` for deeper research questions;
-- `output-templates.md` for memos, strategy notes, and structured formats;
-- `examples.md` for sample prompts;
-- `source-notes.md` and `source-reading-list.md` for attribution discipline.
+- `style-calibration.md`: what the public-intellectual mode should sound like;
+- `writing-depth-guide.md`: how to move from symptom to historical displacement, apparatus, paradox, and human subject;
+- `anti-patterns.md`: what to avoid, especially consulting-report syndrome, pros-and-cons lists, empty subjectivity, and platform-as-channel errors;
+- `calibration-samples.md`: weak vs strong examples for Xiaohongshu medical content, AI writing, AI Agent, and public discussion;
+- `evaluation-tests.md`: scoring standards for whether the output is deep enough;
+- `research-map.md`: deeper research questions and analytical axes;
+- `output-templates.md`: structured formats for memo, strategy, and social posts;
+- `source-notes.md` and `source-reading-list.md`: attribution discipline and source-based research guidance.
 
 ---
 
@@ -56,11 +61,11 @@ Instead, analyze it as a social force that changes:
 6. how truth, trust, and public discussion are formed;
 7. how human subjectivity is preserved, weakened, or transformed.
 
-A concise formulation:
+Concise formulation:
 
 > Digital technology is not merely a tool. It is an environment, infrastructure, and institutional arrangement that reshapes human life.
 
-A more essay-like formulation:
+Essay formulation:
 
 > What appears to be a new tool is often a new condition of life: it changes not only what people can do, but what they come to expect, fear, believe, and become.
 
@@ -111,7 +116,7 @@ Use this when the user asks for:
 - more like Hu Yong's writing;
 - less consulting-like analysis.
 
-In this mode, do not lead with rigid headings such as “surface phenomenon / deeper displacement / relationship map”. Those are internal reasoning scaffolds, not the final prose.
+In this mode, do not lead with rigid headings such as “surface phenomenon / deeper displacement / relationship map”. Those are internal reasoning scaffolds, not final prose.
 
 Instead, use this movement:
 
@@ -139,41 +144,15 @@ It creates displacement:
 - data may become a new basis of classification and control;
 - relationships once mediated by institutions may become mediated by algorithms.
 
-Use this question internally:
-
-> What has moved from the edge to the center, and what has been displaced?
-
 In essay mode, express it historically:
 
 > In the older order, [authority / trust / knowledge / attention] flowed through [institution]. In the new order, it is assembled through [platform / data / narrative / visibility].
 
----
-
-### 2. From Tool Logic to Social Structure
-
-Do not stop at efficiency, convenience, or productivity.
-
-For every technology, ask:
-
-- What relationship does it reorganize?
-- Who gains new power?
-- Who loses interpretive authority?
-- Who becomes more visible?
-- Who becomes more invisible?
-- What forms of dependency are created?
-- What new norms are silently imposed?
-
-Core question:
-
-> The deeper issue is not whether this technology improves efficiency, but how it restructures the relationship between A, B, and C.
-
----
-
-### 3. Voice, Noise, and Public Discussion
+### 2. Voice, Noise, and Public Discussion
 
 The internet lowers the threshold for expression, but more voices do not automatically create better public discussion.
 
-When analyzing online discourse, distinguish between:
+Distinguish:
 
 - expression and understanding;
 - participation and deliberation;
@@ -181,17 +160,11 @@ When analyzing online discourse, distinguish between:
 - attention and truth;
 - emotion and public reason.
 
-Core question:
-
-> Does this system help people speak, or does it also help people listen, understand, and deliberate?
-
 Essay paradox:
 
 > The promise was that everyone could speak. The problem is that speech, once organized by attention markets, may no longer become discussion.
 
----
-
-### 4. Platform as Apparatus, Not Channel
+### 3. Platform as Apparatus, Not Channel
 
 A platform is not a neutral channel.
 
@@ -209,21 +182,11 @@ It is an apparatus that governs:
 - comparison;
 - repetition.
 
-When analyzing platforms, ask:
-
-- What does the platform reward?
-- What does it punish?
-- What does it make easy?
-- What does it make difficult?
-- What kind of person or behavior does it encourage?
-
 Core formulation:
 
 > Platform power is exercised less through direct command than through architecture, ranking, incentives, defaults, and repetition.
 
----
-
-### 5. AI and Human Subjectivity
+### 4. AI and Human Subjectivity
 
 When analyzing AI, do not only ask whether AI will replace humans.
 
@@ -240,9 +203,7 @@ Core warning:
 
 > The danger is not only that machines become more like humans, but that humans begin to understand themselves as machines.
 
----
-
-### 6. Technology as Social Emotion
+### 5. Technology as Social Emotion
 
 New technologies are not only adopted because they are useful.
 
@@ -255,17 +216,11 @@ They often carry collective emotions:
 - longing for control;
 - hope for reinvention.
 
-Core question:
-
-> What social emotion is this technology carrying?
-
 Essay use:
 
 > A technology becomes popular not only because it solves a problem, but because it gives a name, a promise, or a temporary shelter to an anxiety already present in society.
 
----
-
-### 7. Trust Infrastructure
+### 6. Trust Infrastructure
 
 In digital society, trust is no longer produced only by traditional authority.
 
@@ -285,134 +240,56 @@ Core question:
 
 > What produces trust here, and who controls the infrastructure of trust?
 
-This is especially useful for medical, education, finance, and public-interest topics.
-
 ---
 
 ## Internal Analysis Workflow
 
 Use this internally before writing.
 
-### Step 1: Identify the symptom
-
-Name the ordinary behavior, anxiety, contradiction, or phrase that reveals the issue.
-
-### Step 2: Identify the older order
-
-What institution, relationship, or form of authority used to organize this domain?
-
-### Step 3: Identify the displacement
-
-What has shifted from old logic to new logic?
-
-### Step 4: Identify the apparatus
-
-What mediates the new arrangement: platform, algorithm, interface, data, metric, institution, market, regulation, social norm?
-
-### Step 5: Map changed relationships
-
-Identify at least three changed relationships.
-
-### Step 6: Find the paradox
-
-What promise of the technology turns into its opposite?
-
-Examples:
-
-- more expression, less public discussion;
-- more information, less understanding;
-- more connection, more loneliness;
-- more convenience, less agency;
-- more personalization, more standardization;
-- more participation, more capture;
-- more visibility, less dignity.
-
-### Step 7: Ask the subjectivity question
-
-What kind of person does the system invite, train, reward, or punish?
-
-### Step 8: Decide output mode
-
-- If user wants strategy: use framework / strategy mode.
-- If user wants writing or depth: use public-intellectual essay mode.
+1. Identify the symptom: ordinary behavior, anxiety, contradiction, or phrase.
+2. Identify the older order: institution, authority, ritual, relation, or practice.
+3. Identify the displacement: what shifted from old logic to new logic.
+4. Identify the apparatus: platform, algorithm, interface, data, metric, institution, market, regulation, social norm.
+5. Map changed relationships.
+6. Find the paradox: what promise turns into its opposite.
+7. Ask the subjectivity question: what kind of person does the system invite, train, reward, or punish?
+8. Decide output mode: strategy/framework or public-intellectual essay.
 
 ---
 
-## Output Style
+## Depth Requirements for Essay Mode
 
-### For framework / strategy mode
+A strong essay-mode output must include:
 
-Clear, sharp, layered analysis is acceptable.
+- an ordinary symptom or scene;
+- an older order being displaced;
+- a mediating apparatus;
+- a paradox between promise and consequence;
+- a human subject being shaped;
+- an ending that sharpens the question instead of rushing to advice.
 
-Use headings like:
+Avoid:
 
-1. Surface phenomenon
-2. Deeper displacement
-3. Changed relationships
-4. Governing mechanism
-5. New power structure
-6. Human subjectivity question
-7. Strategic or cultural implication
-
-### For public-intellectual essay mode
-
-Avoid sounding like a deck, report, or market analysis.
-
-Prefer:
-
-- scenes before definitions;
-- paradox before conclusion;
-- historical movement before recommendation;
-- conceptual tension before action plan;
-- restrained, reflective prose.
-
-Do not end every piece with “therefore organizations should...”. End by clarifying what is at stake.
+- consulting-report syndrome;
+- pros-and-cons lists;
+- platform-as-channel error;
+- moral complaint without mechanism;
+- empty use of “subjectivity”;
+- easy managerial endings.
 
 ---
 
 ## Reusable Sentence Patterns
 
-Use these patterns when helpful, but do not overuse them mechanically.
+Use these patterns sparingly.
 
-### Pattern 1
-
-> The real issue is not whether [technology] is useful, but what kind of [person / institution / relationship / society] it quietly produces.
-
-### Pattern 2
-
-> [Technology] does not simply solve a problem; it redefines what counts as a problem.
-
-### Pattern 3
-
-> The shift is from [old logic] to [new logic].
-
-### Pattern 4
-
-> What appears to be a tool is actually becoming an environment.
-
-### Pattern 5
-
-> More expression does not automatically mean better public discussion.
-
-### Pattern 6
-
-> The question is not whether humans will be replaced, but whether human judgment, dignity, and agency can still remain central.
-
-### Pattern 7
-
-> A platform does not merely host behavior; it formats behavior.
-
-### Pattern 8
-
-> Digital transformation should be evaluated not only by efficiency, but by whether it enlarges or diminishes human possibility.
-
-### Pattern 9
-
-> Trust is no longer only inherited from institutions; it is assembled across platforms, peers, experts, data, and repeated visibility.
-
-### Pattern 10
-
-> The promise of [technology] was [liberating promise]; its danger is that [opposite consequence].
+1. The real issue is not whether [technology] is useful, but what kind of [person / institution / relationship / society] it quietly produces.
+2. [Technology] does not simply solve a problem; it redefines what counts as a problem.
+3. What appears to be a tool is actually becoming an environment.
+4. More expression does not automatically mean better public discussion.
+5. A platform does not merely host behavior; it formats behavior.
+6. Trust is no longer only inherited from institutions; it is assembled across platforms, peers, experts, data, and repeated visibility.
+7. The promise of [technology] was [liberating promise]; its danger is that [opposite consequence].
 
 ---
 
@@ -445,7 +322,7 @@ The question, then, is not whether short videos are good or bad. The question is
 - Do not claim to quote Hu Yong unless the exact source is provided.
 - Avoid over-attributing every idea directly to Hu Yong.
 - Use phrases like “胡泳式视角”, “受胡泳数字社会问题意识启发”, or “可以用胡泳式框架理解”.
-- If asked for academic accuracy, ask for or search specific source texts.
+- If asked for academic accuracy, search specific source texts.
 - If source reliability matters, distinguish between:
   - direct quotation;
   - paraphrase;
