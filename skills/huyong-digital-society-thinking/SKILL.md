@@ -1,6 +1,6 @@
 ---
 name: huyong-digital-society-thinking
-description: Use this skill when analyzing the social, cultural, ethical, political, or human implications of the internet, AI, digital platforms, algorithms, media, public discourse, and digital transformation. It reframes technology from a neutral tool into a force that restructures relationships, power, attention, public life, institutions, and human subjectivity.
+description: Use this skill when analyzing the social, cultural, ethical, political, or human implications of the internet, AI, digital platforms, algorithms, media, public discourse, and digital transformation. It reframes technology from a neutral tool into a force that restructures relationships, power, attention, public life, institutions, and human subjectivity. For article-like outputs, write in a serious public-intellectual mode: begin from symptoms, historicize the shift, identify the mediating apparatus, develop the paradox, and return to the human subject.
 ---
 
 # 胡泳式数字社会分析 Skill
@@ -28,17 +28,17 @@ Use it when the user asks about:
 - public-interest technology;
 - how individuals, institutions, and public life are reshaped by digital systems.
 
-The goal is not to imitate Hu Yong's exact language, but to distill a mode of thinking:
+The goal is not to imitate Hu Yong's exact language. The goal is to distill a mode of thinking: technology must be understood as a condition of social life, not merely as an instrument.
 
-> Do not ask only what technology can do. Ask what relationships, power structures, social practices, and forms of human subjectivity technology reorganizes.
+For article-like outputs, do not expose the internal analysis framework as rigid headings. Transform it into prose.
 
-For deeper research questions, use `research-map.md`.
+Use:
 
-For reusable output structures, use `output-templates.md`.
-
-For sample prompts and expected directions, use `examples.md`.
-
-For attribution discipline and source use, consult `source-notes.md` and `source-reading-list.md`.
+- `writing-depth-guide.md` for essay style, depth, and public-intellectual movement;
+- `research-map.md` for deeper research questions;
+- `output-templates.md` for memos, strategy notes, and structured formats;
+- `examples.md` for sample prompts;
+- `source-notes.md` and `source-reading-list.md` for attribution discipline.
 
 ---
 
@@ -60,6 +60,10 @@ A concise formulation:
 
 > Digital technology is not merely a tool. It is an environment, infrastructure, and institutional arrangement that reshapes human life.
 
+A more essay-like formulation:
+
+> What appears to be a new tool is often a new condition of life: it changes not only what people can do, but what they come to expect, fear, believe, and become.
+
 ---
 
 ## Activation Heuristics
@@ -75,8 +79,49 @@ Strong activation signals include:
 - “公共讨论为什么变差/变碎/情绪化”
 - “技术背后的权力结构是什么”
 - “帮我写一篇有思想深度的文章”
+- “要像公共知识分子文章，不要像咨询报告”
 
 Do not overuse this skill for simple operational questions.
+
+---
+
+## Two Output Modes
+
+### Mode A: Framework / Strategy Mode
+
+Use this when the user asks for:
+
+- business memo;
+- strategy note;
+- evaluation framework;
+- structured diagnosis;
+- slide content;
+- action recommendations.
+
+In this mode, clear headings, tables, and bullets are acceptable.
+
+### Mode B: Public-Intellectual Essay Mode
+
+Use this when the user asks for:
+
+- article;
+- essay;
+- public intellectual tone;
+- deeper critique;
+- more like Hu Yong's writing;
+- less consulting-like analysis.
+
+In this mode, do not lead with rigid headings such as “surface phenomenon / deeper displacement / relationship map”. Those are internal reasoning scaffolds, not the final prose.
+
+Instead, use this movement:
+
+1. begin with a symptom, scene, phrase, anxiety, or ordinary behavior;
+2. turn the symptom into a problem;
+3. historicize the older order being displaced;
+4. identify the mediating apparatus: platform, algorithm, interface, metric, data system, institution, market;
+5. develop the paradox: the promise of technology turning into its opposite;
+6. return to the human subject: judgment, dignity, autonomy, memory, agency, responsibility;
+7. end by sharpening the question rather than closing it too quickly.
 
 ---
 
@@ -94,9 +139,13 @@ It creates displacement:
 - data may become a new basis of classification and control;
 - relationships once mediated by institutions may become mediated by algorithms.
 
-Use this question:
+Use this question internally:
 
 > What has moved from the edge to the center, and what has been displaced?
+
+In essay mode, express it historically:
+
+> In the older order, [authority / trust / knowledge / attention] flowed through [institution]. In the new order, it is assembled through [platform / data / narrative / visibility].
 
 ---
 
@@ -114,7 +163,7 @@ For every technology, ask:
 - What forms of dependency are created?
 - What new norms are silently imposed?
 
-Use this sentence pattern:
+Core question:
 
 > The deeper issue is not whether this technology improves efficiency, but how it restructures the relationship between A, B, and C.
 
@@ -132,17 +181,21 @@ When analyzing online discourse, distinguish between:
 - attention and truth;
 - emotion and public reason.
 
-Use this question:
+Core question:
 
 > Does this system help people speak, or does it also help people listen, understand, and deliberate?
 
+Essay paradox:
+
+> The promise was that everyone could speak. The problem is that speech, once organized by attention markets, may no longer become discussion.
+
 ---
 
-### 4. Platform as Institution
+### 4. Platform as Apparatus, Not Channel
 
 A platform is not a neutral channel.
 
-It is an institutional arrangement that governs:
+It is an apparatus that governs:
 
 - visibility;
 - ranking;
@@ -152,7 +205,9 @@ It is an institutional arrangement that governs:
 - reputation;
 - access;
 - moderation;
-- memory.
+- memory;
+- comparison;
+- repetition.
 
 When analyzing platforms, ask:
 
@@ -162,9 +217,9 @@ When analyzing platforms, ask:
 - What does it make difficult?
 - What kind of person or behavior does it encourage?
 
-Use this formulation:
+Core formulation:
 
-> Platform power is exercised less through direct command than through architecture, ranking, incentives, and defaults.
+> Platform power is exercised less through direct command than through architecture, ranking, incentives, defaults, and repetition.
 
 ---
 
@@ -181,7 +236,7 @@ Ask:
 - Does AI preserve the dignity of human experience?
 - Does AI make humans evaluate themselves according to machine standards?
 
-Use this core warning:
+Core warning:
 
 > The danger is not only that machines become more like humans, but that humans begin to understand themselves as machines.
 
@@ -200,9 +255,13 @@ They often carry collective emotions:
 - longing for control;
 - hope for reinvention.
 
-When analyzing a technology trend, ask:
+Core question:
 
 > What social emotion is this technology carrying?
+
+Essay use:
+
+> A technology becomes popular not only because it solves a problem, but because it gives a name, a promise, or a temporary shelter to an anxiety already present in society.
 
 ---
 
@@ -222,7 +281,7 @@ It may be produced by:
 - data and evidence;
 - emotional resonance.
 
-Use this question:
+Core question:
 
 > What produces trust here, and who controls the infrastructure of trust?
 
@@ -230,103 +289,62 @@ This is especially useful for medical, education, finance, and public-interest t
 
 ---
 
-## Analysis Workflow
+## Internal Analysis Workflow
 
-When the skill is activated, follow this structure.
+Use this internally before writing.
 
-### Step 1: Identify the surface topic
+### Step 1: Identify the symptom
 
-Name the technology, platform, behavior, or phenomenon being discussed.
+Name the ordinary behavior, anxiety, contradiction, or phrase that reveals the issue.
 
-Example:
+### Step 2: Identify the older order
 
-> The surface topic is AI writing tools.
+What institution, relationship, or form of authority used to organize this domain?
 
-### Step 2: Identify the deeper displacement
+### Step 3: Identify the displacement
 
-Ask what has shifted.
+What has shifted from old logic to new logic?
 
-Example:
+### Step 4: Identify the apparatus
 
-> The deeper displacement is from writing as personal expression to writing as machine-assisted optimization.
+What mediates the new arrangement: platform, algorithm, interface, data, metric, institution, market, regulation, social norm?
 
-### Step 3: Map the changed relationships
+### Step 5: Map changed relationships
 
 Identify at least three changed relationships.
 
-Example:
+### Step 6: Find the paradox
 
-- human and knowledge;
-- author and reader;
-- creator and platform;
-- originality and productivity;
-- judgment and automation.
-
-### Step 4: Identify the governing mechanism
-
-Ask how the system shapes behavior.
+What promise of the technology turns into its opposite?
 
 Examples:
 
-- algorithmic ranking;
-- default settings;
-- interface design;
-- incentives;
-- data classification;
-- social proof;
-- moderation rules;
-- institutional protocols.
+- more expression, less public discussion;
+- more information, less understanding;
+- more connection, more loneliness;
+- more convenience, less agency;
+- more personalization, more standardization;
+- more participation, more capture;
+- more visibility, less dignity.
 
-### Step 5: Identify the power structure
+### Step 7: Ask the subjectivity question
 
-Ask:
+What kind of person does the system invite, train, reward, or punish?
 
-- Who benefits?
-- Who depends on whom?
-- Who controls visibility?
-- Who defines quality?
-- Who defines credibility?
-- Who loses agency?
+### Step 8: Decide output mode
 
-### Step 6: Identify the human question
-
-Translate the technology issue into a question about human subjectivity.
-
-Example:
-
-> The key question is whether AI helps people think more clearly, or whether it makes people outsource the discomfort of thinking.
-
-### Step 7: Produce the final output
-
-Depending on user need, output one of the following:
-
-- conceptual analysis;
-- essay outline;
-- speech outline;
-- social media post;
-- business strategy memo;
-- question list;
-- critique;
-- title options;
-- one-page framework.
+- If user wants strategy: use framework / strategy mode.
+- If user wants writing or depth: use public-intellectual essay mode.
 
 ---
 
 ## Output Style
 
-Prefer clear, sharp, layered analysis.
+### For framework / strategy mode
 
-Avoid generic technology optimism or simple technology pessimism.
+Clear, sharp, layered analysis is acceptable.
 
-Do not say merely:
-
-> This technology has pros and cons.
-
-Instead say:
-
-> This technology creates a new arrangement of power, attention, trust, and agency.
-
-Use a structure like:
+Use headings like:
 
 1. Surface phenomenon
 2. Deeper displacement
@@ -336,11 +354,25 @@ Use a structure like:
 6. Human subjectivity question
 7. Strategic or cultural implication
 
+### For public-intellectual essay mode
+
+Avoid sounding like a deck, report, or market analysis.
+
+Prefer:
+
+- scenes before definitions;
+- paradox before conclusion;
+- historical movement before recommendation;
+- conceptual tension before action plan;
+- restrained, reflective prose.
+
+Do not end every piece with “therefore organizations should...”. End by clarifying what is at stake.
+
 ---
 
 ## Reusable Sentence Patterns
 
-Use these patterns when helpful.
+Use these patterns when helpful, but do not overuse them mechanically.
 
 ### Pattern 1
 
@@ -378,45 +410,33 @@ Use these patterns when helpful.
 
 > Trust is no longer only inherited from institutions; it is assembled across platforms, peers, experts, data, and repeated visibility.
 
----
+### Pattern 10
 
-## Example: AI Writing
-
-User asks:
-
-> How should we understand AI writing?
-
-Answer using this skill:
-
-AI writing should not be understood only as a productivity tool. Its deeper significance is that it changes the relationship between people and expression.
-
-The displacement is from writing as a process of thinking to writing as an optimized output. This does not mean AI writing is bad. But it means the key question has changed.
-
-The central issue is not whether AI can write well, but whether people still use writing to clarify their own judgment.
-
-AI may enhance human expression when it helps people organize, challenge, and refine their ideas. But it may weaken subjectivity when it replaces the difficult process of forming one's own position.
-
-The real danger is not that AI writes like humans, but that humans begin to write, think, and evaluate themselves according to machine-generated standards of fluency, efficiency, and smoothness.
+> The promise of [technology] was [liberating promise]; its danger is that [opposite consequence].
 
 ---
 
-## Example: Short Video Platforms
+## Example: AI Writing, Essay Mode
 
-User asks:
+AI writing should not first be understood as a new way of producing text. It is a new pressure placed on the act of expression itself.
 
-> How should we analyze short video platforms?
+For a long time, writing was one of the ways a person discovered what he thought. The sentence did not merely report a completed idea; it helped bring the idea into being. The arrival of machine-generated fluency changes this relationship. It offers language before hesitation, structure before confusion, polish before judgment.
 
-Answer using this skill:
+This is why the question is not whether AI can write well. It often can. The more difficult question is whether people will still use writing as a form of thinking, or gradually accept writing as the production of acceptable surfaces.
 
-Short video platforms are not merely entertainment tools. They are attention allocation systems.
+The danger is not that machines write like humans. The danger is that humans begin to measure their own thought by the smoothness of machine language.
 
-The deeper displacement is from content seeking audiences to algorithms assigning audiences to content. This changes the relationship between creators, viewers, platforms, advertisers, and public discourse.
+---
 
-The platform does not simply display what people like. It also trains what people become likely to like.
+## Example: Short Video Platforms, Essay Mode
 
-The key question is not whether short videos are good or bad, but what kind of perception, patience, emotion, and public discussion they cultivate.
+The short video platform does not simply shorten video. It shortens the distance between impulse and satisfaction, between boredom and stimulation, between expression and measurement.
 
-A platform does not merely host behavior; it formats behavior.
+The old promise of the internet was that more people could speak. The new condition is that speech must survive the ranking system of attention. What cannot hold the gaze disappears; what provokes, accelerates, or repeats returns again and again.
+
+In this sense, the platform is not only a place where people watch videos. It is an apparatus that trains perception. It teaches people what is worth seeing, how long something deserves attention, and what kind of self can become visible.
+
+The question, then, is not whether short videos are good or bad. The question is what happens to public life when attention itself becomes the first institution.
 
 ---
 
